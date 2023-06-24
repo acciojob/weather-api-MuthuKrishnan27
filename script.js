@@ -5,7 +5,7 @@ const weatherDataDiv = document.getElementById('weatherData');
 weatherBtn.addEventListener('click', getCurrentWeather);
 
 function getCurrentWeather() {
-  const apiKey = 'ea0e90b778511fe0241dcfc3796c8fdf'; // Replace with your OpenWeatherMap API key
+  const apiKey = '66838e9b1d5807f82bdba67eea721ae7'; // Replace with your OpenWeatherMap API key
   const city = 'London';
 
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
